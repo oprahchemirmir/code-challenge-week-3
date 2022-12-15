@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
 
 //Create fetch function to get the data from the db.json
 function fetchMovies(URL){
-    fetch(URL)
+    fetch("https://oprahchemirmir.github.io/code-challenge-week-3/")
     .then(resp => resp.json())
     .then(movies => {
         movies.forEach(movie => {
