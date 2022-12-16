@@ -8,15 +8,16 @@ clone the repo by doing the following
 git clone `https://github.com/oprahchemirmir/code-challenge-week-3`
 change directory into the folder by 
  cd `code-challenge-week-3`
- to open the code in visual  studio code run
+ to open the code in visual  studio code run by running 
  `code .`
- # installations 
- json server
+ open the terminal and make sure your in the programs folder
 
-run this command to get the backend started :
+run this command to watch the db.json file and display its files.
 `npx json-server --watch db.json`
-
-test server by visiting this route in the browser:`http://localhost:3000/films`open the index.html file in the browser to run the application .the base url for your API will be `http://localhost:3000`
+view the html file in the browser.
+# alternative 2
+you can use the github pages link provided below to run the program
+`https://oprahchemirmir.github.io/code-challenge-week-3/`
 
 # core deliverables
 as a user i can ;
@@ -29,7 +30,6 @@ oprah chemirmir
 # license
 this project is licensed under 
 MIT license.
-
 
 
 
