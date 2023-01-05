@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const movieDetailsContainer = document.querySelector("#movieDetails");
   
     // getting films data
-    fetch(URL)
+    fetch("https://oprahchemirmir.github.io/db.json")
       .then((res) => res.json())
       .then((data) => {
         displayMoviesList(data.films);
