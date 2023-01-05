@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const moviesListContainer = document.querySelector("#moviesList");
     const movieDetailsContainer = document.querySelector("#movieDetails");
   
-    fetch("db.json")
+    fetch("https://oprahchemirmir.github.io/code-challenge-week-3/db.json")
       .then((res) => res.json())
       .then((data) => {
         displayMoviesList(data.films);
