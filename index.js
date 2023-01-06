@@ -1,5 +1,4 @@
 
-
 document.addEventListener("DOMContentLoaded", () => {
     const moviesListContainer = document.querySelector("#moviesList");
     const movieDetailsContainer = document.querySelector("#movieDetails");

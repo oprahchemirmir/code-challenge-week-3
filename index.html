@@ -5,32 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flatdango</title>
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./style.css"/>
   </head>
   <body>
-    <header>
-    <nav>
-      <h1>FlatDango Movie Theater </h1>
-        </nav>
-    </header>
-    <main class="big">
-      <!-- movies list section -->
-      <section class="moviesList">
-
-        <div>
-          <h3 class="customtitles">Movie List </h3>
-          <span id="moviesList">
-          
-          </span>
+    <h1>FlatDango Movie Theater</h1>
+        <div class="content">
+            <div class="row">
+                <div class="column">
+                    <h3 class="customtitles">Movie List</h3>
+                    <ol id="moviesList"></ol>
+                </div>
+                </div>
+                <div class="column">
+                    <section class="moviesDetails">
+                        <div id="movieDetails">
+                        </div>
+                    </section>
+            </div>
         </div>
-       
-      </section>
-
-        <div id="movieDetails">
-
-          
-        </div>
-    </main>
-    <script src="./index.js"></script>
-  </body>
+<script src="./index.js"></script>
+</body>
 </html>
